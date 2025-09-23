@@ -1,4 +1,4 @@
-function Fbc() {
+const Fbc = () => {
   return (
     <>
       <h1>I am Function Based Component</h1>

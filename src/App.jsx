@@ -5,6 +5,7 @@ import StatesInFBC from "./allTopics/02_states/StatesInFBC";
 import CounterInFbc from "./allTopics/02_states/CounterInFbc";
 import EventExample from "./allTopics/03_events/EventExample";
 import Parent from "./allTopics/04_props/Parent";
+import DrillingParent from "./allTopics/05_propsDrilling/DrillingParent";
 
 function App() {
   return (
@@ -15,7 +16,8 @@ function App() {
       {/* <StatesInFBC/> */}
       {/* <CounterInFbc/> */}
       {/* <EventExample/> */}
-      <Parent/>
+      {/* <Parent/> */}
+      <DrillingParent/>
     </>
   );
 }

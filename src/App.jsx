@@ -6,6 +6,8 @@ import CounterInFbc from "./allTopics/02_states/CounterInFbc";
 import EventExample from "./allTopics/03_events/EventExample";
 import Parent from "./allTopics/04_props/Parent";
 import DrillingParent from "./allTopics/05_propsDrilling/DrillingParent";
+import Context1 from "./allTopics/06_context/Context1";
+import ParentComp from "./allTopics/06_context/ParentComp";
 
 function App() {
   return (
@@ -17,7 +19,8 @@ function App() {
       {/* <CounterInFbc/> */}
       {/* <EventExample/> */}
       {/* <Parent/> */}
-      <DrillingParent/>
+      {/* <DrillingParent/> */}
+      <Context1 />
     </>
   );
 }

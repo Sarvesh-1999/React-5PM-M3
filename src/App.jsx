@@ -8,7 +8,8 @@ import Parent from "./allTopics/04_props/Parent";
 import DrillingParent from "./allTopics/05_propsDrilling/DrillingParent";
 import Context1 from "./allTopics/06_context/Context1";
 import ParentComp from "./allTopics/06_context/ParentComp";
-
+import ParentX from "./allTopics/07_childrenProps/ParentX";
+import Dashboard from "./allTopics/06_context/Dashboard"
 function App() {
   return (
     <>
@@ -20,7 +21,9 @@ function App() {
       {/* <EventExample/> */}
       {/* <Parent/> */}
       {/* <DrillingParent/> */}
-      <Context1 />
+      {/* <Context1 /> */}
+      {/* <ParentX/> */}
+      <Dashboard/>
     </>
   );
 }

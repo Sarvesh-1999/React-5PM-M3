@@ -1,12 +1,12 @@
-import ChildA2 from "./ChildA2";
+import ChildA2 from './ChildA2'
 
 const ChildA1 = () => {
   return (
     <div>
-      <h2>ChildA1</h2>
-      <ChildA2 />
+      <h1>I am Child A1 Component</h1>
+      <ChildA2/>
     </div>
-  );
-};
+  )
+}
 
-export default ChildA1;
+export default ChildA1

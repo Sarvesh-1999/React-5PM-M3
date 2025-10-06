@@ -1,24 +1,18 @@
-import { createContext } from "react";
 import ParentComp from "./ParentComp";
+import { createContext } from "react";
 
-// STEP 1 : CREATE A CONTEXT
-export let myStoreRoomContext = createContext(); // it returns Context Object
+export let contextObject = createContext();
 
 const Context1 = () => {
-  let data = "Hello World";
+  let str = "Hello";
   let arr = [10, 20, 30];
-  let obj = {
-    fname: "John",
-    lname: "Doe",
-  };
+  let obj = { fname: "John" };
 
   return (
-    <>
-      {/* STEP 2 : PROVIDE A CONTEXT */}
-      <myStoreRoomContext.Provider value={{ data, arr, obj }}>
-        <ParentComp />
-      </myStoreRoomContext.Provider>
-    </>
+    <contextObject.Provider value={{str,arr,obj}}>
+      <ParentComp />
+    </contextObject.Provider>
   );
 };
+
 export default Context1;

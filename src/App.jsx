@@ -10,6 +10,7 @@ import Context1 from "./allTopics/06_context/Context1";
 import ParentComp from "./allTopics/06_context/ParentComp";
 import ParentX from "./allTopics/07_childrenProps/ParentX";
 import Dashboard from "./allTopics/06_context/Dashboard"
+import ControlledForms1 from "./allTopics/08_forms/ControlledForms1";
 function App() {
   return (
     <>
@@ -23,7 +24,8 @@ function App() {
       {/* <DrillingParent/> */}
       {/* <Context1 /> */}
       {/* <ParentX/> */}
-      <Dashboard/>
+      {/* <Dashboard/> */}
+      <ControlledForms1/>
     </>
   );
 }

@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.cardBtn{
+    background-color: royalblue;
+    color: white;
+    border: none;
+    padding: 3px;
+}
+#navbar{
+    background-color: red;
+}

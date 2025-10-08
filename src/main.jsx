@@ -2,6 +2,11 @@
 import { createRoot } from "react-dom/client";
 import App from "./App";
 import AuthContext from "./allTopics/06_context/AuthContext";
+
+
+import "./global.css"
+
+
 createRoot(document.getElementById("root")).render(
   <AuthContext>
     <App />

@@ -11,6 +11,8 @@ import ParentComp from "./allTopics/06_context/ParentComp";
 import ParentX from "./allTopics/07_childrenProps/ParentX";
 import Dashboard from "./allTopics/06_context/Dashboard"
 import ControlledForms1 from "./allTopics/08_forms/ControlledForms1";
+import Card from "./allTopics/09_reactCss/Card";
+import Navbar from "./allTopics/09_reactCss/Navbar";
 function App() {
   return (
     <>
@@ -25,7 +27,10 @@ function App() {
       {/* <Context1 /> */}
       {/* <ParentX/> */}
       {/* <Dashboard/> */}
-      <ControlledForms1/>
+      {/* <ControlledForms1/> */}
+      <Card/>
+   
+      <Navbar/>
     </>
   );
 }

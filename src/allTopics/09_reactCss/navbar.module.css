@@ -1,0 +1,10 @@
+#navbar{
+    height: 80px;
+    background-color: violet;
+}
+
+#navbar>figure{
+    color: white;
+    font-size: 20px;
+    font-weight: 800;
+}

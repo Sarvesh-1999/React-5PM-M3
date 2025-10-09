@@ -13,6 +13,7 @@ import Dashboard from "./allTopics/06_context/Dashboard"
 import ControlledForms1 from "./allTopics/08_forms/ControlledForms1";
 import Card from "./allTopics/09_reactCss/Card";
 import Navbar from "./allTopics/09_reactCss/Navbar";
+import TodoWrapper from "./task2/TodoWrapper";
 function App() {
   return (
     <>
@@ -28,9 +29,10 @@ function App() {
       {/* <ParentX/> */}
       {/* <Dashboard/> */}
       {/* <ControlledForms1/> */}
-      <Card/>
-   
-      <Navbar/>
+      {/* <Card/> */}
+      {/* <Navbar/> */}
+
+      <TodoWrapper/>
     </>
   );
 }

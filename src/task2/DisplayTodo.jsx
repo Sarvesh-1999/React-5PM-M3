@@ -1,6 +1,4 @@
-import React from "react";
-
-const DisplayTodo = ({ allTodos , handleDeleteTodo }) => {
+const DisplayTodo = ({ allTodos, handleDeleteTodo, handleEditTodo }) => {
   return (
     <div>
       {allTodos.length === 0 ? (
@@ -10,8 +8,8 @@ const DisplayTodo = ({ allTodos , handleDeleteTodo }) => {
           return (
             <div key={ele.id}>
               <li>{ele.text}</li>
-              <button>edit</button>
-              <button onClick={() =>  handleDeleteTodo(ele.id)}>delete</button>
+              <button onClick={() => handleEditTodo(ele.id)}>edit</button>
+              <button onClick={() => handleDeleteTodo(ele.id)}>delete</button>
             </div>
           );
         })

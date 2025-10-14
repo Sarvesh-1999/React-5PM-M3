@@ -14,7 +14,14 @@ import ControlledForms1 from "./allTopics/08_forms/ControlledForms1";
 import Card from "./allTopics/09_reactCss/Card";
 import Navbar from "./allTopics/09_reactCss/Navbar";
 import TodoWrapper from "./task2/TodoWrapper";
+import LifecycleinCBC from "./allTopics/10_lifecycle/LifecycleinCBC";
+import { useState } from "react";
+import LifeCycleInFBC from "./allTopics/10_lifecycle/LifeCycleInFBC";
 function App() {
+
+  const [toogle, setToggle] = useState(false)
+
+
   return (
     <>
       {/* <Fbc/> */}
@@ -31,8 +38,16 @@ function App() {
       {/* <ControlledForms1/> */}
       {/* <Card/> */}
       {/* <Navbar/> */}
+      {/* <TodoWrapper/> */}
 
-      <TodoWrapper/>
+      <button onClick={()=>setToggle(!toogle)} className="bg-amber-300 p-4 rounded-2xl m-4">
+        toogle button
+      </button>
+
+      {/* {toogle ? <LifecycleinCBC/> : <p>No Component</p>} */}
+
+      <LifeCycleInFBC/>
+      
     </>
   );
 }

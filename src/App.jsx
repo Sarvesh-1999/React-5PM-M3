@@ -17,6 +17,7 @@ import TodoWrapper from "./task2/TodoWrapper";
 import LifecycleinCBC from "./allTopics/10_lifecycle/LifecycleinCBC";
 import { useState } from "react";
 import LifeCycleInFBC from "./allTopics/10_lifecycle/LifeCycleInFBC";
+import FetchProducts from "./allTopics/11_apiCall/FetchProducts";
 function App() {
 
   const [toogle, setToggle] = useState(false)
@@ -40,14 +41,16 @@ function App() {
       {/* <Navbar/> */}
       {/* <TodoWrapper/> */}
 
-      <button onClick={()=>setToggle(!toogle)} className="bg-amber-300 p-4 rounded-2xl m-4">
+      {/* <button onClick={()=>setToggle(!toogle)} className="bg-amber-300 p-4 rounded-2xl m-4">
         toogle button
-      </button>
+      </button> */}
 
       {/* {toogle ? <LifecycleinCBC/> : <p>No Component</p>} */}
 
-      <LifeCycleInFBC/>
+      {/* <LifeCycleInFBC/> */}
       
+        <FetchProducts/>
+
     </>
   );
 }

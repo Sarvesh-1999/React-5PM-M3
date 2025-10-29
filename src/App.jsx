@@ -9,7 +9,7 @@ import DrillingParent from "./allTopics/05_propsDrilling/DrillingParent";
 import Context1 from "./allTopics/06_context/Context1";
 import ParentComp from "./allTopics/06_context/ParentComp";
 import ParentX from "./allTopics/07_childrenProps/ParentX";
-import Dashboard from "./allTopics/06_context/Dashboard"
+import Dashboard from "./allTopics/06_context/Dashboard";
 import ControlledForms1 from "./allTopics/08_forms/ControlledForms1";
 import Card from "./allTopics/09_reactCss/Card";
 import Navbar from "./allTopics/09_reactCss/Navbar";
@@ -18,10 +18,9 @@ import LifecycleinCBC from "./allTopics/10_lifecycle/LifecycleinCBC";
 import { useState } from "react";
 import LifeCycleInFBC from "./allTopics/10_lifecycle/LifeCycleInFBC";
 import FetchProducts from "./allTopics/11_apiCall/FetchProducts";
+import Routing1 from "./allTopics/12_routing/Routing1";
 function App() {
-
-  const [toogle, setToggle] = useState(false)
-
+  const [toogle, setToggle] = useState(false);
 
   return (
     <>
@@ -48,9 +47,10 @@ function App() {
       {/* {toogle ? <LifecycleinCBC/> : <p>No Component</p>} */}
 
       {/* <LifeCycleInFBC/> */}
-      
-        <FetchProducts/>
 
+      {/* <FetchProducts/> */}
+
+      <Routing1 />
     </>
   );
 }
